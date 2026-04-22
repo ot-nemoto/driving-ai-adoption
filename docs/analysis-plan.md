@@ -51,14 +51,35 @@ flowchart TD
 
 ```mermaid
 quadrantChart
-    title Priority Matrix
+    title Priority Matrix (Sample)
     x-axis Low Gap-A --> High Gap-A
     y-axis Low Potential --> High Potential
     quadrant-1 High Priority
     quadrant-2 Low Barrier
     quadrant-3 Low Priority
     quadrant-4 High Barrier
+    TestCode: [0.75, 0.80]
+    DocCreate: [0.65, 0.85]
+    CodeGen: [0.60, 0.90]
+    TextSum: [0.55, 0.80]
+    CodeRev: [0.55, 0.65]
+    Req: [0.45, 0.45]
+    Deploy: [0.30, 0.40]
+    Ops: [0.35, 0.35]
 ```
+
+> 仮の数値によるサンプル。各タスクの略称は以下の通り。
+>
+> | 略称 | タスク | 現状(Q4) | 最大(Q5) | Gap-A |
+> |------|--------|---------|---------|-------|
+> | CodeGen | コード生成 | 60% | 90% | 30% |
+> | TestCode | テストコード生成 | 30% | 80% | 50% |
+> | DocCreate | ドキュメント作成 | 35% | 85% | 50% |
+> | TextSum | テキスト要約・整理 | 40% | 80% | 40% |
+> | CodeRev | コードレビュー・デバッグ | 45% | 65% | 20% |
+> | Req | 要件定義 | 20% | 50% | 30% |
+> | Deploy | デプロイ・リリース | 25% | 40% | 15% |
+> | Ops | 運用・保守 | 20% | 35% | 15% |
 
 ---
 
