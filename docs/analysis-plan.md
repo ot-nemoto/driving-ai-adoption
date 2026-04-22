@@ -52,8 +52,8 @@ flowchart TD
 ```mermaid
 quadrantChart
     title Priority Matrix
-    x-axis Low Gap-A --> High Gap-A (Q5-Q4)
-    y-axis Low Potential --> High Potential (Q5)
+    x-axis Low Gap-A --> High Gap-A
+    y-axis Low Potential --> High Potential
     quadrant-1 優先度高
     quadrant-2 余地あり・障害は小
     quadrant-3 優先度低
