@@ -51,9 +51,9 @@ flowchart TD
 
 ```mermaid
 quadrantChart
-    title 推進施策の優先度マトリクス
-    x-axis ギャップA小 --> ギャップA大（Q5-Q4）
-    y-axis 活用余地低 --> 活用余地高（Q5）
+    title Priority Matrix
+    x-axis Low Gap-A --> High Gap-A (Q5-Q4)
+    y-axis Low Potential --> High Potential (Q5)
     quadrant-1 優先度高
     quadrant-2 余地あり・障害は小
     quadrant-3 優先度低
@@ -154,3 +154,4 @@ timeline
 |------|------|
 | 2026-04-22 | 初版作成 |
 | 2026-04-22 | ASCII図をMermaid記法に置き換え |
+| 2026-04-22 | quadrantChartのaxis labelを英語に修正（日本語非対応のため） |
